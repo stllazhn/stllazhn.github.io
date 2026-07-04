@@ -9,17 +9,11 @@ My work includes human–LLM value-alignment research, natural-language interfac
 ### E-Commerce Review Text Mining
 An end-to-end R and Quarto analysis of customer reviews using TF-IDF, SVD, k-means clustering, and logistic regression.
 
-View repository
-
 ### Sewer Maze Pathfinder
 A Java pathfinding project using graph traversal, shortest-path search, priority queues, and constrained route planning.
 
-View repository
-
 ### Terminal Chat Server
 An OCaml and Lwt client–server chat application supporting TCP connections and asynchronous message handling.
-
-View repository
 
 ## Publication
 
