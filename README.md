@@ -21,6 +21,15 @@ An OCaml and Lwt client–server chat application supporting TCP connections and
 
 View repository
 
+## Publication
+
+**[LLMs Homogenize Values in Constructive Arguments on Value-Laden Topics](https://arxiv.org/abs/2509.10637)**  
+ACM CHI 2026 · Farhana Shahid, Stella Zhang, and Aditya Vashistha
+
+Studied how LLM-generated constructive rewrites alter the values expressed in
+contentious online discourse, using experiments with 347 participants from
+India and the United States.
+
 ## Technical skills
 
 Languages: Python, Java, R, SQL, OCaml, JavaScript, C++  
