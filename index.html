@@ -1,136 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stella(Juanru) Zhang | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Stella Zhang | Data Science, NLP & Applied AI</title>
+  <meta name="description" content="Portfolio of Stella Zhang, a Cornell Information Science graduate working across data science, NLP, applied AI, analytics, and software engineering.">
+  <link rel="canonical" href="https://stllazhn.github.io/">
+
+  <meta property="og:title" content="Stella Zhang | Data Science, NLP & Applied AI">
+  <meta property="og:description" content="Research, applied AI systems, analytics, and software projects by Stella Zhang.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stllazhn.github.io/">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="hero">
-    <h1>Stella(Juanru) Zhang</h1>
-    <p class="subtitle">Cornell University College of A&S Information Science graduate interested in data science, machine learning, software engineering, and applied AI.</p>
-    <div class="links">
-      <a href="https://github.com/stllazhn">GitHub</a>
-      <a href="mailto:stllazhn@gmail.com">Email</a>
-      <a href="https://www.linkedin.com/in/stella-zhang-891321254/">LinkedIn</a>
-      <a href="resume.pdf">Resume</a>
-    </div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top">Stella Zhang</a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="resume.pdf">Résumé</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>
-        I build projects across data analysis, machine learning, Java software development,
-        OCaml systems-style programming, and applied AI. My work includes text mining,
-        graph algorithms, command-line tools, data structures, and AI-assisted data workflows.
+  <main id="main-content">
+    <section class="hero container" id="top">
+      <p class="eyebrow">Data science · NLP · Applied AI</p>
+      <h1>I build data and AI systems that turn complex information into useful decisions.</h1>
+      <p class="hero-copy">
+        I’m Stella Zhang, a Cornell Information Science graduate and incoming NYU Data Science
+        master’s student. My work spans human–LLM value alignment, natural-language interfaces
+        for structured data, machine learning, analytics, and software engineering.
       </p>
-    </section>
 
-    <section>
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>Python</span>
-        <span>Java</span>
-        <span>R</span>
-        <span>SQL</span>
-        <span>OCaml</span>
-        <span>Django</span>
-        <span>Quarto</span>
-        <span>Power BI</span>
-        <span>Excel</span>
-        <span>Machine Learning</span>
-        <span>Data Analysis</span>
-        <span>LangChain</span>
+      <div class="hero-actions" aria-label="Profile links">
+        <a class="button primary" href="#work">View selected work</a>
+        <a class="button" href="resume.pdf">View résumé</a>
+        <a class="text-link" href="https://github.com/stllazhn">GitHub ↗</a>
+        <a class="text-link" href="https://www.linkedin.com/in/stella-zhang-891321254/">LinkedIn ↗</a>
+      </div>
+
+      <div class="quick-facts" aria-label="Quick facts">
+        <div>
+          <strong>Cornell University</strong>
+          <span>B.A. Information Science, 2026</span>
+        </div>
+        <div>
+          <strong>New York University</strong>
+          <span>Incoming M.S. Data Science, Fall 2026</span>
+        </div>
+        <div>
+          <strong>Focus</strong>
+          <span>NLP, AI systems, data analysis</span>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Featured Projects</h2>
-
-      <div class="projects">
-        <article class="project-card">
-          <h3>R E-Commerce Clothing Review Analysis</h3>
-          <p>
-            Text mining project analyzing women’s e-commerce clothing reviews using R and Quarto.
-            Includes data cleaning, TF-IDF, SVD, k-means clustering, logistic regression, and model evaluation.
-          </p>
-          <p class="tech">R · Quarto · tidytext · TF-IDF · SVD · Logistic Regression</p>
-          <a href="https://github.com/stllazhn/r-ecommerce-review-text-mining">View project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Java Sewer Maze Pathfinder</h3>
-          <p>
-            Implemented the pathfinding strategy for a Cornell CS 2110 maze game. My work focused on graph traversal,
-            finding the hidden ring, planning escape routes, and balancing coin collection with survival.
-          </p>
-          <p class="tech">Java · Graph Algorithms · Shortest Paths · Priority Queues</p>
-          <a href="https://github.com/stllazhn/java-sewer-maze-pathfinder">View project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Java PhD Genealogy Tree</h3>
-          <p>
-            Command-line academic genealogy tool that reads advisor/advisee relationships from CSV files and supports
-            tree queries such as membership, subtree size, direct advisor lookup, lineage, and common ancestor search.
-          </p>
-          <p class="tech">Java · Trees · Recursion · CSV Parsing · JUnit</p>
-          <a href="https://github.com/stllazhn/java-academic-genealogy-tree">View project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>OCaml Terminal Chat Server</h3>
-          <p>
-            Terminal chat application with server and client modes, TCP socket communication,
-            asynchronous message handling, and broadcast messaging between connected clients.
-          </p>
-          <p class="tech">OCaml · Lwt · Networking · TCP</p>
-          <a href="https://github.com/stllazhn/ocaml-terminal-chat-server">View project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>OCaml Red-Black Tree Set</h3>
-          <p>
-            Red-black tree set implementation with insertion, membership checks, balancing logic,
-            unit tests, and runtime performance validation.
-          </p>
-          <p class="tech">OCaml · Data Structures · Red-Black Trees · OUnit</p>
-          <a href="https://github.com/stllazhn/ocaml-red-black-tree-set">View project</a>
-        </article>
-
-      <article class="project-card">
-        <h3>Java Click-a-Dot Game</h3>
+    <section class="section container" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h2>Projects with a clear technical problem</h2>
+        </div>
         <p>
-          Java Swing reaction game with randomly appearing clickable targets, score tracking,
-          adjustable size and speed controls, mouse event handling, timer-based updates,
-          and save-score functionality.
+          A smaller set of projects is featured here so the strongest work does not get buried.
         </p>
-        <p class="tech">Java · Swing · GUI Programming · Event Handling</p>
-        <a href="https://github.com/stllazhn/java-click-a-dot-game">View project</a>
-      </article>
-        
-    </div>
-  </section>
+      </div>
 
-    <section>
-      <h2>Experience Highlights</h2>
-      <ul>
-        <li>Built a LangChain and Gemini-based question-answering system for natural-language health information queries.</li>
-        <li>Integrated SQL databases with AI models for natural-language query workflows.</li>
-        <li>Cleaned, analyzed, and visualized product data using SQL, Excel, and Power BI.</li>
-        <li>Worked with machine learning models including XGBoost, Random Forest, Logistic Regression, and Naive Bayes.</li>
-      </ul>
+      <div class="featured-grid">
+        <article class="project-card featured">
+          <div class="card-topline">
+            <span class="project-type">Data science · NLP</span>
+            <span>01</span>
+          </div>
+          <h3>E-Commerce Review Text Mining</h3>
+          <p>
+            Analyzed women’s clothing reviews using a reproducible R and Quarto workflow.
+            Cleaned and transformed text, built TF-IDF features, reduced dimensionality with SVD,
+            explored customer themes with k-means clustering, and evaluated logistic-regression models.
+          </p>
+          <p class="contribution">
+            <strong>What this demonstrates:</strong> end-to-end text analysis, statistical modeling,
+            model evaluation, and clear technical reporting.
+          </p>
+          <ul class="tags" aria-label="Technologies">
+            <li>R</li>
+            <li>Quarto</li>
+            <li>tidytext</li>
+            <li>TF-IDF</li>
+            <li>SVD</li>
+          </ul>
+          <a class="project-link" href="https://github.com/stllazhn/r-ecommerce-review-text-mining">
+            Explore the analysis on GitHub ↗
+          </a>
+        </article>
+
+        <article class="project-card featured">
+          <div class="card-topline">
+            <span class="project-type">Algorithms · Java</span>
+            <span>02</span>
+          </div>
+          <h3>Sewer Maze Pathfinder</h3>
+          <p>
+            Implemented the decision logic for a maze-navigation game: locate a hidden target,
+            compute an escape route, and collect additional value without exceeding the remaining
+            movement budget.
+          </p>
+          <p class="contribution">
+            <strong>What this demonstrates:</strong> graph traversal, shortest-path reasoning,
+            priority queues, and decision-making under constraints.
+          </p>
+          <ul class="tags" aria-label="Technologies">
+            <li>Java</li>
+            <li>Graphs</li>
+            <li>Shortest paths</li>
+            <li>Priority queues</li>
+          </ul>
+          <a class="project-link" href="https://github.com/stllazhn/java-sewer-maze-pathfinder">
+            Review the implementation on GitHub ↗
+          </a>
+        </article>
+
+        <article class="project-card featured">
+          <div class="card-topline">
+            <span class="project-type">Systems · OCaml</span>
+            <span>03</span>
+          </div>
+          <h3>Terminal Chat Server</h3>
+          <p>
+            Built a terminal-based client–server chat application with TCP communication,
+            asynchronous message handling, and broadcast messaging across connected clients.
+          </p>
+          <p class="contribution">
+            <strong>What this demonstrates:</strong> networking fundamentals, concurrency,
+            functional programming, and protocol-oriented system design.
+          </p>
+          <ul class="tags" aria-label="Technologies">
+            <li>OCaml</li>
+            <li>Lwt</li>
+            <li>TCP</li>
+            <li>Networking</li>
+          </ul>
+          <a class="project-link" href="https://github.com/stllazhn/ocaml-terminal-chat-server">
+            View the server and client code ↗
+          </a>
+        </article>
+      </div>
+
+      <div class="more-projects">
+        <h3>Additional projects</h3>
+        <div class="compact-projects">
+          <a href="https://github.com/stllazhn/java-academic-genealogy-tree">
+            <strong>Academic Genealogy Tree</strong>
+            <span>Java · trees · recursion · CSV parsing · JUnit</span>
+          </a>
+          <a href="https://github.com/stllazhn/ocaml-red-black-tree-set">
+            <strong>Red-Black Tree Set</strong>
+            <span>OCaml · balanced trees · OUnit · performance testing</span>
+          </a>
+          <a href="https://github.com/stllazhn/java-click-a-dot-game">
+            <strong>Click-a-Dot Game</strong>
+            <span>Java Swing · event handling · timers · GUI state</span>
+          </a>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>
-        You can reach me by email at
-        <a href="mailto:stllazhn@gmail.com">stllazhn@gmail.com</a>.
-      </p>
+    <section class="section section-tinted" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Experience & research</p>
+            <h2>Work with measurable outcomes</h2>
+          </div>
+          <p>
+            Research and internships are presented as central evidence, not as an afterthought.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="experience-item">
+            <div class="experience-meta">
+              <p class="date">May 2025–Present</p>
+              <p>Ithaca, NY</p>
+            </div>
+            <div>
+              <p class="role">Research Assistant</p>
+              <h3>Cornell Human–LLM Value Alignment Research</h3>
+              <ul>
+                <li>
+                  Designed an experimental framework to study how LLM-generated constructive
+                  comments affect the trajectory and rhetoric of online discussions.
+                </li>
+                <li>
+                  Conducted large-scale R and SQL analysis of value alignment, cultural
+                  homogenization, and model-generated interventions.
+                </li>
+                <li>
+                  Co-authored research submitted to ACM CHI 2026 on value misalignment and
+                  cultural flattening in LLM-rewritten arguments.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <p class="date">Jun–Oct 2024</p>
+              <p>Remote, US</p>
+            </div>
+            <div>
+              <p class="role">Software Engineer</p>
+              <h3>Convoloo — NLP Internship</h3>
+              <ul>
+                <li>
+                  Built a LangChain and Gemini question-answering system that translated natural
+                  language into SQL for structured patient-health datasets.
+                </li>
+                <li>
+                  Achieved 95% accuracy on basic information-retrieval queries and integrated
+                  MySQL and SQLite with AI inference pipelines.
+                </li>
+                <li>
+                  Developed conversational retrieval chains and output templates that made
+                  generated queries and results easier to inspect and debug.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <div class="experience-meta">
+              <p class="date">Jun–Aug 2024</p>
+              <p>Beijing, China</p>
+            </div>
+            <div>
+              <p class="role">Data Analyst</p>
+              <h3>Xiaomi — Data Analysis Internship</h3>
+              <ul>
+                <li>
+                  Validated weekly product data for more than 5,000 SKUs across labels, costs,
+                  revenue, and inventory status.
+                </li>
+                <li>
+                  Built four Power BI dashboards tracking product lifecycles, regional sales,
+                  and inventory turnover.
+                </li>
+                <li>
+                  Used SQL and Excel to improve reporting workflows across six regions, reducing
+                  report-construction time by 30%.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <details class="earlier-experience">
+            <summary>Earlier experience</summary>
+            <div class="earlier-grid">
+              <article>
+                <p class="role">Software Engineer / Data Analyst</p>
+                <h3>Hisense Transport Statistics Management</h3>
+                <p>
+                  Developed debugging protocols, integrated Alibaba Sentinel for request
+                  regulation, and supported a cross-functional peer-review process.
+                </p>
+              </article>
+              <article>
+                <p class="role">Programmer / Data Analyst</p>
+                <h3>Baidu Data Analysis Mentorship</h3>
+                <p>
+                  Evaluated XGBoost, Random Forest, Logistic Regression, and Naïve Bayes models
+                  on more than 10,000 website visits, achieving over 95% classification accuracy.
+                </p>
+              </article>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Technical toolkit</p>
+          <h2>Skills grouped by how I use them</h2>
+        </div>
+      </div>
+
+      <div class="skill-groups">
+        <article>
+          <h3>Languages</h3>
+          <p>Python, Java, R, SQL, OCaml, JavaScript, C++, HTML/CSS</p>
+        </article>
+        <article>
+          <h3>Data & machine learning</h3>
+          <p>pandas, tidyverse, text mining, classification, clustering, model evaluation</p>
+        </article>
+        <article>
+          <h3>Applied AI & backend</h3>
+          <p>LangChain, Gemini, RAG, MySQL, SQLite, Django, Node.js</p>
+        </article>
+        <article>
+          <h3>Analysis & communication</h3>
+          <p>Power BI, Excel, Quarto, data visualization, technical reporting</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s talk about data, NLP, or applied AI.</h2>
+          <p>
+            I’m interested in research and engineering work where careful analysis and
+            practical software meet.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:stllazhn@gmail.com">stllazhn@gmail.com</a>
+          <a class="text-link" href="https://github.com/stllazhn">GitHub ↗</a>
+          <a class="text-link" href="https://www.linkedin.com/in/stella-zhang-891321254/">LinkedIn ↗</a>
+        </div>
+      </div>
     </section>
   </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Stella Zhang</p>
+      <p>Built with plain HTML and CSS.</p>
+    </div>
+  </footer>
 </body>
 </html>
+
