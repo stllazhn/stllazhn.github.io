@@ -1,6 +1,6 @@
 # Hi, I'm Stella (Juanru) Zhang
 
-I'm a Cornell Information Science graduate and incoming NYU Data Science master's student interested in data science, NLP, applied AI, and software engineering.
+I'm a Cornell Information Science graduate and first-year NYU Data Science master's student interested in data science, NLP, applied AI, and software engineering.
 
 My work includes human–LLM value-alignment research, natural-language interfaces for structured data, text mining, machine learning, graph algorithms, and networked systems.
 
